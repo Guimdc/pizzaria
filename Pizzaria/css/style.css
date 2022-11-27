@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+    background-image: url(pizza.png);
+    background-repeat: no-repeat;
+    background-size: 215vh;
+    background-color: #3C3C3C;
+    padding: 0 15vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div1 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 320px;
+    background: rgba(0, 0, 0, 0.72);
+    border-radius: 20px;
+    padding: 0 30px 0 30px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.165em;
+    margin-top: 30px;
+    color: #fff;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: 0;
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+input::placeholder {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button {
+    margin-top: 40px;
+    height: 40px;
+    background-color: #fff;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.165em;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #000000;
+    border: none;
+}
+
+.button{
+    width: 100%;
+}
+
+.cadastro {
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1200px){
+    .bg {
+        display: flex;
+        justify-content: center;
+    }
+}
